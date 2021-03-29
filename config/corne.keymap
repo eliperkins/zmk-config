@@ -55,7 +55,7 @@
                         bindings = <
    &kp ESC    &kp EXCL &kp AT     &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR  &trans
    &trans     &trans   &trans     &trans    &trans    &trans      &trans    &kp LEFT  &kp DOWN        &kp UP   &kp RIGHT &kp GRAVE
-   &kp C_PREV &kp C_PP &kp C_NEXT &trans    &trans    &trans      &kp PLUS  &kp MINUS &kp EQUAL       &kp LBKT &kp RBKT  &kp BSLH 
+   &kp C_PREV &kp C_PP &kp C_NEXT &trans    &trans    &trans      &kp PLUS  &kp MINUS &kp EQUAL       &kp LBKT &kp RBKT  &mt RSHFT BSLH
                                   &trans    &mo 3     &trans      &trans    &trans    &trans
                         >;
                 };
