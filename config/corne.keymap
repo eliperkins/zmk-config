@@ -39,10 +39,10 @@
 // | SHFT  |     |     |     |     |     |   |     |     |     |     |     |     |
 //                     |     |     |     |   |     |     |     |
                         bindings = <
-   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5  &kp N6 &kp N7   &kp N8   &kp N9 &kp N0    &trans
-   &trans &trans &trans &trans &trans &trans  &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-   &trans &trans &trans &trans &trans &trans  &trans &trans   &trans   &trans &trans    &trans
-                        &trans &trans &trans  &trans &mo 3    &trans
+   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5  &kp N6 &kp N7 &kp N8   &kp N9   &kp N0 &trans
+   &trans &trans &trans &trans &trans &trans   &trans &trans &kp LBRC &kp RBRC &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                        &trans &trans &trans   &trans &mo 3    &trans
                         >;
                 };
 
@@ -54,8 +54,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp ESC    &kp EXCL &kp AT     &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR  &trans
-   &kp C_PREV &kp C_PP &kp C_NEXT &trans    &trans    &trans      &trans    &kp LEFT  &kp DOWN        &kp UP   &kp RIGHT &kp GRAVE
-   &trans     &trans   &trans     &trans    &trans    &trans      &kp PLUS  &kp MINUS &kp EQUAL       &kp LBKT &kp RBKT  &kp BSLH 
+   &trans     &trans   &trans     &trans    &trans    &trans      &trans    &kp LEFT  &kp DOWN        &kp UP   &kp RIGHT &kp GRAVE
+   &kp C_PREV &kp C_PP &kp C_NEXT &trans    &trans    &trans      &kp PLUS  &kp MINUS &kp EQUAL       &kp LBKT &kp RBKT  &kp BSLH 
                                   &trans    &mo 3     &trans      &trans    &trans    &trans
                         >;
                 };
