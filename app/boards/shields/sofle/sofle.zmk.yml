@@ -3,7 +3,7 @@ id: sofle
 name: Sofle
 type: shield
 url: https://github.com/josefadamcik/SofleKeyboard
-requires: [pro_micro]
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
